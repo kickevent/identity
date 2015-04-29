@@ -1,0 +1,21 @@
+{
+  "name": "kickevent-identity",
+  "version": "1.0.0",
+  "description": "SSO Authentication Server",
+  "main": "src/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kickevent/identity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kickevent/identity/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-uuid": "^1.4.1",
+    "lodash": "~2.4.1",
+    "mongoose": "~3.8.19",
+    "body-parser": "~1.9.2",
+    "express": "~4.10.2"
+  }
+}

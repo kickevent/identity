@@ -1,0 +1,5 @@
+module.exports = {
+  port: '4000',
+  db:   'mongodb://mongo/identity',
+  securityTokenName: 'x-kickevent-auth-token'
+};
